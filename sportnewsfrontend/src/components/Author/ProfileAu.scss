@@ -1,0 +1,41 @@
+.profile {
+  position: absolute;
+  right: 0;
+  top: 70px;
+
+  .card {
+    padding: 2rem;
+    .form-group {
+      position: relative;
+      .btn {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        visibility: hidden;
+        top: 24px;
+      }
+      &:hover .btn {
+        visibility: visible;
+      }
+      &:hover input,
+      &:hover select {
+        width: 90%;
+      }
+    }
+
+    .position-relative {
+      position: relative;
+      label {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translateY(-50%);
+        visibility: hidden;
+      }
+      &:hover label {
+        visibility: visible;
+        color: #fff;
+      }
+    }
+  }
+}

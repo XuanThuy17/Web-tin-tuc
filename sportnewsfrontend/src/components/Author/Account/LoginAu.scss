@@ -1,0 +1,39 @@
+.login-container {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  padding-top: 20px;
+
+  .content-left {
+    .loginTitle {
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 20%;
+      font-size: 3rem;
+      text-shadow: 2px 2px 8px #acb68f;
+      color: #78b43d;
+      font-weight: 700;
+    }
+  }
+
+  .content-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    .loginTitle {
+      text-transform: uppercase;
+      text-align: center;
+      color: #78b43d;
+      text-shadow: 2px 2px 8px #acb68f;
+      font-size: 2rem;
+      font-weight: 600;
+   
+    }
+    .forgot-pass {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

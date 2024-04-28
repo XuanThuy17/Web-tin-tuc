@@ -1,0 +1,10 @@
+const actionType = Object.freeze({
+    LOGIN_SUCCESS:'LOGIN_SUCCESS',
+    LOGIN_FAIL:'LOGIN_FAIL',
+    UPDATE_SUCCESS: 'UPDATE_SUCCESS',
+    UPDATE_FAILED: 'UPDATE_FAILED',
+    LOGOUT:'LOGOUT',
+    UPDATE_AVATAR:'UPDATE_AVATAR'
+})
+
+export default actionType;
